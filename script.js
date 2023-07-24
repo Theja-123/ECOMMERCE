@@ -74,7 +74,7 @@ function updateCartItems() {
     itemNameElement.textContent = item.name;
 
     var itemPriceElement = document.createElement('span');
-    itemPriceElement.textContent = item.price;
+    itemPriceElement.textContent = 'Rs' + item.price;
 
     var removeBtnElement = document.createElement('button');
     removeBtnElement.classList.add('remove-btn');
